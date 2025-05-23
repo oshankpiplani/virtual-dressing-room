@@ -1,0 +1,17 @@
+2025-05-10 09:18:02,324 - OpenPose - ERROR - Image processing failed: name 'op' is not defined
+2025-05-10 09:18:02,325 - OpenPose - ERROR - OpenPose processing failed: name 'op' is not defined
+2025-05-10 09:18:02,325 - OpenPose - INFO - Created empty JSON output due to failure
+2025-05-10 09:21:29,978 - OpenPose - INFO - Starting OpenPose processing for C:\Users\singh\project\backend\services\processed\image\person_26_nobg.jpg
+2025-05-10 09:21:29,981 - OpenPose - INFO - Image dimensions: 768x1024
+2025-05-10 09:21:29,982 - OpenPose - ERROR - OpenPose setup error: OpenPose binaries not found
+2025-05-10 09:21:29,982 - OpenPose - ERROR - Processing failed: OpenPose binaries not found
+2025-05-10 09:21:29,982 - OpenPose - ERROR - Traceback (most recent call last):
+  File "C:\Users\singh\project\ml\preprocessing\openpose\python\10_generate_pose.py", line 157, in main
+    op = setup_openpose(args.model_folder)
+  File "C:\Users\singh\project\ml\preprocessing\openpose\python\10_generate_pose.py", line 78, in setup_openpose
+    raise FileNotFoundError("OpenPose binaries not found")
+FileNotFoundError: OpenPose binaries not found
+
+2025-05-10 09:45:16,483 - OpenPose - ERROR - OpenPose setup error: OpenPose model folder not found: ../models/
+2025-05-10 09:45:16,483 - OpenPose - ERROR - OpenPose processing failed: OpenPose model folder not found: ../models/
+2025-05-10 09:45:16,484 - OpenPose - INFO - Created empty JSON output due to failure

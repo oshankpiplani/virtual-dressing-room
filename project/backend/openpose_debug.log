@@ -1,0 +1,49 @@
+2025-05-10 10:09:44,909 - OpenPoseProcessor - INFO - Starting OpenPose processing
+2025-05-10 10:09:44,909 - OpenPoseProcessor - INFO - Input: C:\Users\singh\project\backend\services\processed\image\person_31_nobg.jpg
+2025-05-10 10:09:44,909 - OpenPoseProcessor - INFO - Output: C:\Users\singh\project\backend\services\processed\openpose-img\person_31_pose.png
+2025-05-10 10:09:44,910 - OpenPoseProcessor - INFO - JSON Output: C:\Users\singh\project\backend\services\processed\openpose-json\person_31_pose.json
+2025-05-10 10:09:44,910 - OpenPoseProcessor - INFO - Configured paths for Windows installation at: C:\Users\singh\project\ml\preprocessing
+2025-05-10 10:09:44,910 - OpenPoseProcessor - ERROR - Missing critical file: C:\Users\singh\project\ml\preprocessing\python\openpose\Release\pyopenpose.cp37-win_amd64.pyd
+2025-05-10 10:09:44,910 - OpenPoseProcessor - ERROR - Fatal error: Path configuration failed
+2025-05-10 10:09:44,910 - OpenPoseProcessor - ERROR - Traceback (most recent call last):
+  File "C:\Users\singh\project\ml\preprocessing\openpose\python\10_generate_pose.py", line 196, in main
+    raise RuntimeError("Path configuration failed")
+RuntimeError: Path configuration failed
+
+2025-05-10 10:09:44,910 - OpenPoseProcessor - ERROR - 
+=== System Debug Information ===
+2025-05-10 10:09:44,910 - OpenPoseProcessor - ERROR - Python executable: C:\Users\singh\anaconda3\envs\openpose\python.exe
+2025-05-10 10:09:44,910 - OpenPoseProcessor - ERROR - Python version: 3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)]
+2025-05-10 10:09:44,910 - OpenPoseProcessor - ERROR - OpenCV version: 4.11.0
+2025-05-10 10:09:44,910 - OpenPoseProcessor - ERROR - Platform: win32
+2025-05-10 10:09:44,910 - OpenPoseProcessor - ERROR - Current working directory: C:\Users\singh\project\backend
+2025-05-10 10:09:44,910 - OpenPoseProcessor - ERROR - Environment PATH: C:\Users\singh\project\ml\preprocessing\x64\Release;C:\Users\singh\project\ml\preprocessing\bin;C:\Users\singh\anaconda3\envs\openpose\lib\site-packages\cv2\../../x64/vc14/bin;C:\Users\singh\anaconda3\envs\tf115;C:\Users\singh\anaconda3\envs\tf115\Library\mingw-w64\bin;C:\Users\singh\anaconda3\envs\tf115\Library\usr\bin;C:\Users\singh\anaconda3\envs\tf115\Library\bin;C:\Users\singh\anaconda3\envs\tf115\Scripts;C:\Users\singh\anaconda3\envs\tf115\bin;C:\Users\singh\anaconda3\condabin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Cloudflare\Cloudflare WARP;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2025.2.0;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\CMake\bin;C:\Program Files\nodejs;C:\Users\singh\AppData\Local\Microsoft\WindowsApps;C:\Users\singh\AppData\Roaming\npm;C:\Users\singh\anaconda3\envs\openpose\lib\site-packages\numpy\.libs
+2025-05-10 10:19:35,523 - OpenPoseProcessor - INFO - Starting OpenPose processing for: C:\Users\singh\project\backend\services\processed\image\person_32_nobg.jpg
+2025-05-10 10:19:35,524 - OpenPoseProcessor - ERROR - Failed to import OpenPose. Check:
+2025-05-10 10:19:35,524 - OpenPoseProcessor - ERROR - 1. OpenPose is built with Python support
+2025-05-10 10:19:35,524 - OpenPoseProcessor - ERROR - 2. pyopenpose is in your PYTHONPATH
+2025-05-10 10:19:35,524 - OpenPoseProcessor - ERROR - Current PYTHONPATH: ['C:\\Users\\singh\\project\\ml\\preprocessing\\openpose\\python', 'C:\\Users\\singh\\project\\ml\\preprocessing\\openpose\\python\\openpose\\Release', 'C:\\Users\\singh\\project\\backend', 'C:\\Users\\singh\\anaconda3\\envs\\openpose\\python37.zip', 'C:\\Users\\singh\\anaconda3\\envs\\openpose\\DLLs', 'C:\\Users\\singh\\anaconda3\\envs\\openpose\\lib', 'C:\\Users\\singh\\anaconda3\\envs\\openpose', 'C:\\Users\\singh\\anaconda3\\envs\\openpose\\lib\\site-packages']
+2025-05-10 10:19:35,524 - OpenPoseProcessor - ERROR - Error in OpenPose processing: No module named 'pyopenpose'
+2025-05-10 10:19:35,524 - OpenPoseProcessor - ERROR - Traceback (most recent call last):
+  File "C:\Users\singh\project\ml\preprocessing\openpose\python\10_generate_pose.py", line 38, in main
+    import pyopenpose as op
+ModuleNotFoundError: No module named 'pyopenpose'
+
+2025-05-10 10:40:09,631 - OpenPoseProcessor - INFO - Processing: C:\Users\singh\project\backend\services\processed\image\person_33_nobg.jpg
+2025-05-10 10:40:09,632 - OpenPoseProcessor - INFO - Output image: C:\Users\singh\project\backend\services\processed\openpose-img\person_33_pose.png
+2025-05-10 10:40:09,632 - OpenPoseProcessor - INFO - Output JSON: C:\Users\singh\project\backend\services\processed\openpose-json\person_33_pose.json
+2025-05-10 10:40:09,632 - OpenPoseProcessor - INFO - Configured Python path: C:\Users\singh\project\ml\preprocessing\openpose\bin\python\openpose\Release
+2025-05-10 10:40:09,632 - OpenPoseProcessor - INFO - Configured system PATH: C:\Users\singh\project\ml\preprocessing\openpose\bin
+2025-05-10 10:40:09,632 - OpenPoseProcessor - INFO - Models path: C:\Users\singh\project\ml\preprocessing\openpose\models
+2025-05-10 10:40:10,179 - OpenPoseProcessor - INFO - Successfully imported OpenPose
+2025-05-10 10:40:10,179 - OpenPoseProcessor - DEBUG - Python paths: ['C:\\Users\\singh\\project\\ml\\preprocessing\\openpose\\python', 'C:\\Users\\singh\\project\\ml\\preprocessing\\openpose\\python\\openpose\\Release', 'C:\\Users\\singh\\project\\backend', 'C:\\Users\\singh\\anaconda3\\envs\\openpose\\python37.zip', 'C:\\Users\\singh\\anaconda3\\envs\\openpose\\DLLs', 'C:\\Users\\singh\\anaconda3\\envs\\openpose\\lib', 'C:\\Users\\singh\\anaconda3\\envs\\openpose', 'C:\\Users\\singh\\anaconda3\\envs\\openpose\\lib\\site-packages', 'C:\\Users\\singh\\project\\ml\\preprocessing\\openpose\\bin\\python\\openpose\\Release']
+2025-05-10 10:40:10,193 - OpenPoseProcessor - INFO - OpenPose initialized successfully
+2025-05-10 10:40:10,196 - OpenPoseProcessor - INFO - Processing image...
+2025-05-10 10:40:11,930 - OpenPoseProcessor - INFO - Saved pose image: C:\Users\singh\project\backend\services\processed\openpose-img\person_33_pose.png
+2025-05-10 10:40:11,931 - OpenPoseProcessor - INFO - Saved JSON keypoints: C:\Users\singh\project\backend\services\processed\openpose-json\person_33_pose.json
+2025-05-10 10:40:11,931 - OpenPoseProcessor - INFO - Processing complete!
+2025-05-10 10:55:46,318 - OpenPoseProcessor - INFO - Configured Python path: C:\Users\singh\Downloads\openpose-1.7.0-binaries-win64-gpu-python3.7-flir-3d_recommended\openpose\bin\python\openpose\Release
+2025-05-10 10:55:46,318 - OpenPoseProcessor - INFO - Configured system PATH: C:\Users\singh\Downloads\openpose-1.7.0-binaries-win64-gpu-python3.7-flir-3d_recommended\openpose\bin
+2025-05-10 10:55:47,438 - OpenPoseProcessor - INFO - Saved pose-only image: C:\Users\singh\project\backend\services\processed\openpose-img\person_34_pose.png
+2025-05-10 10:55:47,439 - OpenPoseProcessor - INFO - Saved JSON keypoints: C:\Users\singh\project\backend\services\processed\openpose-json\person_34_pose.json
+2025-05-10 10:55:47,439 - OpenPoseProcessor - INFO - Processing complete!

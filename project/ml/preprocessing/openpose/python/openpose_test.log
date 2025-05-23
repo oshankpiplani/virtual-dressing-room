@@ -1,0 +1,4 @@
+2025-05-10 09:28:50,232 - OpenPose-Test - INFO - Starting OpenPose installation test...
+2025-05-10 09:28:50,232 - OpenPose-Test - INFO - Added to PATH: C:\Users\singh\project\ml\preprocessing\openpose\bin, C:\Users\singh\project\ml\preprocessing\openpose\x64\Release
+2025-05-10 09:28:50,232 - OpenPose-Test - INFO - Added to Python path: C:\Users\singh\project\ml\preprocessing\openpose\python\openpose\Release
+2025-05-10 09:28:50,233 - OpenPose-Test - ERROR - Import failed: No module named 'pyopenpose'

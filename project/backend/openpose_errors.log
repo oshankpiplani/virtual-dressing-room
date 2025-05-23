@@ -1,0 +1,16 @@
+2025-05-10 10:07:21,085 - OpenPoseProcessor - INFO - Starting OpenPose processing
+2025-05-10 10:07:21,085 - OpenPoseProcessor - INFO - Input: C:\Users\singh\project\backend\services\processed\image\person_30_nobg.jpg
+2025-05-10 10:07:21,085 - OpenPoseProcessor - INFO - Output: C:\Users\singh\project\backend\services\processed\openpose-img\person_30_pose.png
+2025-05-10 10:07:21,085 - OpenPoseProcessor - INFO - JSON Output: C:\Users\singh\project\backend\services\processed\openpose-json\person_30_pose.json
+2025-05-10 10:07:21,085 - OpenPoseProcessor - INFO - Validating system environment...
+2025-05-10 10:07:21,085 - OpenPoseProcessor - INFO - Python version: 3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)]
+2025-05-10 10:07:21,086 - OpenPoseProcessor - INFO - OpenCV version: 4.11.0
+2025-05-10 10:07:21,086 - OpenPoseProcessor - DEBUG - Added to PYTHONPATH: C:\Users\singh\project\ml\preprocessing\python\openpose\Release
+2025-05-10 10:07:21,086 - OpenPoseProcessor - DEBUG - Added to SYSTEM PATH: C:\Users\singh\project\ml\preprocessing\x64\Release
+2025-05-10 10:07:21,086 - OpenPoseProcessor - ERROR - Missing required DLL: C:\Users\singh\project\ml\preprocessing\x64\Release\openpose.dll
+2025-05-10 10:07:21,086 - OpenPoseProcessor - ERROR - Fatal error: Path configuration failed
+2025-05-10 10:07:21,086 - OpenPoseProcessor - ERROR - Traceback (most recent call last):
+  File "C:\Users\singh\project\ml\preprocessing\openpose\python\10_generate_pose.py", line 159, in main
+    raise RuntimeError("Path configuration failed")
+RuntimeError: Path configuration failed
+
