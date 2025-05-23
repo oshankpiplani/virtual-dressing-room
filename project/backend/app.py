@@ -24,8 +24,8 @@ load_dotenv()
 # AWS S3 Configuration
 AWS_ACCESS_KEY_ID = os.getenv("AWS_KEY")
 AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET")
-AWS_S3_BUCKET_NAME = 'virtual-dressing-room'
-AWS_REGION = 'ap-south-1'
+AWS_S3_BUCKET_NAME = os.getenv("AWS_BUCKET")
+AWS_REGION = os.getenv("AWS_REGION")
 
 # Database configuration
 DB_PARAMS = {
