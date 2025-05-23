@@ -39,8 +39,8 @@ load_dotenv()
 # AWS Configuration
 AWS_ACCESS_KEY_ID = os.getenv("AWS_KEY")
 AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET")
-AWS_S3_BUCKET_NAME = os.getenv("AWS_BUCKET", "virtual-dressing-room")
-AWS_REGION = os.getenv("AWS_REGION", "ap-south-1")
+AWS_S3_BUCKET_NAME = os.getenv("AWS_BUCKET")
+AWS_REGION = os.getenv("AWS_REGION")
 S3_CONFIG = Config(
     connect_timeout=5,
     read_timeout=5,
@@ -49,11 +49,11 @@ S3_CONFIG = Config(
 
 # Database configuration
 DB_PARAMS = {
-    'host': os.getenv("DB_HOST", "localhost"),
-    'database': os.getenv("DB_NAME", "postgres"),
-    'user': os.getenv("DB_USER", "postgres"),
-    'password': os.getenv("DB_PASS", "Sherlock@23"),
-    'port': os.getenv("DB_PORT", "5432")
+    'host': os.getenv("DB_HOST"),
+    'database': os.getenv("DB_NAME"),
+    'user': os.getenv("DB_USER"),
+    'password': os.getenv("DB_PASS"),
+    'port': os.getenv("DB_PORT")
 }
 
 # Directory setup
