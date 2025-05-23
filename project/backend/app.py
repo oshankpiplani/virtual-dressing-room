@@ -29,11 +29,11 @@ AWS_REGION = os.getenv("AWS_REGION")
 
 # Database configuration
 DB_PARAMS = {
-    'host': 'localhost',
-    'database': 'postgres',
-    'user': 'postgres',
-    'password': 'Sherlock@23',
-    'port': '5432'
+    'host': os.getenv("DB_HOST"),
+    'database': os.getenv("DB_NAME"),
+    'user': os.getenv("DB_USER"),
+    'password': os.getenv("DB_PASS"),
+    'port': os.getenv("DB_PORT")
 }
 
 # Local directories
