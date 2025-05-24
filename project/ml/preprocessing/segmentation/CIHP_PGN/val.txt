@@ -1,0 +1,1 @@
+/images/person_45_nobg.jpg /labels/person_45_nobg.png
