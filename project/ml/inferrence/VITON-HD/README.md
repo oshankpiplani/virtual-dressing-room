@@ -3,7 +3,7 @@
 Clone this repository:
 
 ```
-git clone https://github.com/oshankpiplani/virtual-dressing-room/edit/main/project/ml/inferrence/VITON-HD
+git clone https://github.com/joyboyitis/virtual-dressing-room/edit/main/project/ml/inferrence/VITON-HD
 cd ./VITON-HD/
 ```
 
@@ -29,6 +29,7 @@ CUDA_VISIBLE_DEVICES=[GPU_ID] python test.py --name [NAME]
 ```
 
 The results are saved in the `./results/` directory. You can change the location by specifying the `--save_dir` argument. To synthesize virtual try-on images with different pairs of a person and a clothing item, edit `./datasets/test_pairs.txt` and run the same command.
+
 
 
 
