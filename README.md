@@ -4,7 +4,7 @@
   Requirements :
   Python version 3.7 is required to be already installed\
   Step1 : Clone the repo using command\
-  git clone https://github.com/joyboyitis/virtual-dressing-room.git \
+  git clone https://github.com/oshankpiplani/virtual-dressing-room.git \
   Step2 : Navigate to backend folder using command\
   cd virtual-dressing-room/backend\
   Step3 : pip install requirements.txt\
@@ -21,7 +21,7 @@
   Step5 : python app.py
 # For Frontend:
   Step1 : Clone the repo using command\
-  git clone https://github.com/joyboyitis/virtual-dressing-room.git \
+  git clone https://github.com/oshankpiplani/virtual-dressing-room.git \
   Step2 : Navigate to frontend folder using command\
   cd virtual-dressing-room/frontend\
   Step3 : npm install\
